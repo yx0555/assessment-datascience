@@ -1,0 +1,38 @@
+# ==============================================================================
+# Singapore Municipal Services Office (MSO) Feedback Triage Assistant
+# Python Requirements & Environment Setup
+# ==============================================================================
+#
+# ENVIRONMENT VARIABLE SETUP:
+# Do NOT hardcode or commit API keys into source code.
+# Set your GEMINI_API_KEY environment variable using one of the following methods:
+#
+# Option A: Linux / macOS / WSL (Terminal)
+#   export GEMINI_API_KEY="your-gemini-api-key-here"
+#
+# Option B: Windows (PowerShell)
+#   $env:GEMINI_API_KEY="your-gemini-api-key-here"
+#
+# Option C: Windows (Command Prompt)
+#   set GEMINI_API_KEY=your-gemini-api-key-here
+#
+# Option D: Local .env file (Recommended for development)
+#   Create a file named `.env` in the project root:
+#   GEMINI_API_KEY=your-gemini-api-key-here
+#
+# ------------------------------------------------------------------------------
+
+# Core Streamlit Web Application Framework
+streamlit>=1.38.0
+
+# Official Google GenAI SDK (Gemini 2.5/3.7 models)
+google-genai>=0.1.1
+google-generativeai>=0.8.3
+
+# Data Handling and Evaluation Visualizations
+pandas>=2.2.0
+altair>=5.4.0
+pydantic>=2.8.0
+
+# Environment Variable Loader
+python-dotenv>=1.0.1

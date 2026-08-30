@@ -1,0 +1,6 @@
+{
+  "name": "Municipal Feedback Triage Assistant",
+  "description": "Internal assistant for the Municipal Services Office (MSO) to triage municipal feedback, route to partner agencies (HDB, NEA, LTA, NParks, PUB, SLA, Town Councils), and draft citizen replies.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
